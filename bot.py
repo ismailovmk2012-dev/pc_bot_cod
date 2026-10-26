@@ -5,6 +5,9 @@ import time
 import random
 import re
 import html
+import ssl
+
+ssl._create_default_https_context = ssl._create_unverified_context
 
 TOKEN = "8935534470:AAFrUCn-9EVhgSm4FUMfy8vUEX3h1FLcIOQ"
 ADMIN_USERNAME = "k13_way"
